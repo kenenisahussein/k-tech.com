@@ -1,0 +1,121 @@
+body {
+    background-color: #000000;
+    background-image: url(images/intro-img/gradient.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+
+
+}
+
+main {
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    border: solid 1px rgba(128, 128, 128, 0.198);
+}
+
+section {
+    backdrop-filter: blur(1px);
+    padding: 10px;
+}
+
+label {
+    color: white;
+}
+
+section input {
+    padding: 5px;
+    border-radius: 7px;
+    margin-bottom: 2px;
+    width: 95%;
+    border-color: rgba(216, 112, 147, 0.334);
+    font-size: 18px;
+}
+
+
+
+
+.remember-me {
+    color: white;
+    display: flex;
+    white-space: nowrap;
+
+}
+
+.forget-pswd {
+    text-decoration: none;
+    color: pink;
+    float: right;
+    margin: 4px;
+}
+
+.checkbox {
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+}
+
+p {
+    color: rgb(219, 219, 219);
+    font-weight: bolder;
+
+}
+
+
+
+section button {
+    background-color: rgb(8, 8, 8);
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid palevioletred;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    position: relative;
+    transition: .3 ease;
+    text-decoration: none;
+    text-align: center;
+}
+
+section button:hover {
+    color: blueviolet;
+    box-shadow: 2px 2px 20px rgba(111, 1, 139, 0.925);
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    color: rgba(114, 114, 114, 0.699);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+
+}

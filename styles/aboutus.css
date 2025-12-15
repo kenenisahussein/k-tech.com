@@ -1,0 +1,151 @@
+span {
+  font-weight: bolder;
+  font-size: 20px;
+  font-style: normal;
+}
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  color: gray;
+}
+
+p {
+  color: rgb(219, 219, 219);
+  font-weight: bolder;
+
+}
+
+.intro-container {
+  width: auto;
+  padding: 5px;
+  margin: 14px;
+  max-width: 800px;
+
+}
+
+
+
+
+
+
+.intro-card {
+  border: solid rgba(137, 43, 226, 0.356) 1px;
+  border-radius: 10px;
+  max-width: 300px;
+  padding: 10px;
+  display: flex;
+  margin: 6px;
+  cursor: pointer;
+}
+
+.intro-card:hover {
+  box-shadow: 2px 2px 20px rgba(111, 1, 139, 0.925);
+}
+
+.mainCard-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.about-us-hero-container {
+  box-shadow: 2px 2px 5px rgba(187, 90, 187, 0.234);
+  color: gray;
+  border: solid 1px rgba(137, 43, 226, 0.299);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 6px;
+  border-radius: 7px;
+  margin: 5px;
+}
+
+.abs-hero-img {
+  padding: 5px;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.abs-hero-img img {
+  border-radius: 100%;
+  width: 90%;
+  height: 90%;
+  object-position: center;
+}
+
+.hero-description {
+  color: #a1a0a0;
+  width: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.comment-container {
+  color: gray;
+  text-align: center;
+}
+
+@media (min-width:700px) {
+  .comment {
+    display: none;
+
+  }
+
+  .students-comment {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+.students-comment {
+
+  color: gray;
+  border: solid 1px rgba(137, 43, 226, 0.299);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 5px;
+}
+
+.students-comment img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.comment-imgs {
+  display: flex;
+  border-radius: 6px;
+  object-fit: contain;
+  transition: transform .23s;
+}
+
+.comment-imgs:hover {
+  transform: scale(1.04);
+}
+
+.comment {
+  display: flex;
+  gap: 4px;
+
+}
+
+.copyright {
+  color: gray;
+  text-align: center;
+}
