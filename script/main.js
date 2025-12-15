@@ -14,12 +14,12 @@ export const course = [
   },
   {
     id: 3,
-    image: "images/course-image/what-is-database.png",
+    image: "images/course-image/What-is-database.png",
     title: "Database",
   },
   {
     id: 4,
-    image: "images/course-image/what-is-HTML.jpg",
+    image: "images/course-image/What-is-HTML.jpg",
     title: "HTML",
   },
   {
@@ -165,3 +165,4 @@ const logout = document.querySelector(".js-logout");
 logout.addEventListener("click", () => {
   window.open("login.html");
 });
+
